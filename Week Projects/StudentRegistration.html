@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Student Registration Form</title>
+        <style>
+         body {
+            font-family: Arial;
+            background-color: #f4f4f4;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        form {
+            width: 40%;
+            margin: auto;
+            background: rgb(159, 151, 151);
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        label {
+            font-weight: bold;
+            width:20px;
+            height:10px;
+        }
+
+        input, select, textarea {
+            width: 90%;
+            padding: 8px;
+            margin: 5px 0 5px;
+        }
+
+        .gender, .skills {
+            width: auto;
+        }
+
+        button {
+            padding: 10px;
+            margin: 5px;
+        }
+        </style>
+    </head>
+    <body>
+        <h1>Student Registration Form</h1>
+        <form>
+            <label>Full Name: </label>
+            <input type="text" required>
+            <label>Email: </label><br><br>
+            <input type="email" required>
+            <label>Password: </label><br><br>
+            <input type="password"required><br><br>
+            <label>Date of Birth: </label>
+            <input type="date" required>
+            <label>Gender: </label><br><br>
+            <input type="radio" name="gender" class="gender">Male
+            <input type="radio" name="gender" class="gender">Female
+            <br><br>
+            <label>Course: </label>
+            <select>
+                <option>MATH</option>
+                <option>DSA</option>
+                <option>FEDF</option>
+                <option>JAPANESE</option>
+            </select>
+            <br><br>
+            <label>Skills:</label><br>
+            <input type="checkbox" class="skills"> HTML
+            <input type="checkbox" class="skills"> CSS
+            <input type="checkbox" class="skills"> JavaScript
+            <input type="checkbox" class="skills"> Java
+            <br><br>
+            <label>Address:</label>
+            <textarea rows="4"></textarea>
+            <br>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </form>
+    </body>
+</html>

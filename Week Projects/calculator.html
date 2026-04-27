@@ -1,0 +1,22 @@
+<html>
+    <body>
+        <input id="a" placeholder="Number 1"><br><br>
+        <input id="b" placeholder="Number 2"><br><br>
+         <button onclick="calc('+')">Add</button>
+         <button onclick="calc('-')">Sub</button>
+         <button onclick="calc('*')">Mul</button>
+         <button onclick="calc('/')">Div</button>
+         <script>
+            function calc(op){
+            let a =Number(document.getElementById("a").value);
+            let b = Number(document.getElementById("b").value);
+            let res;
+            if(op === '+') res = a+b;
+            if(op === '-') res = a-b;
+            if(op === '*') res = a*b;
+            if(op === '/') res = a/b;
+           alert(res);
+            }
+        </script>
+    </body>
+</html>
