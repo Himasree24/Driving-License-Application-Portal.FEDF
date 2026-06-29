@@ -156,7 +156,7 @@ src
 * Real-time notifications
 * QR-based digital license verification
 * Admin dashboard
-* Help & Support module
+  
 * Mobile responsive design
 
 ---
@@ -166,11 +166,11 @@ src
 ### Team Lead
 
 * Surapuraju Himasree (2520090181)
-
+*made login page, signup, digital license, home page, abstract and diagram and documentation
 ### Team Member
 
 * Pydi Devi Sree (2520030594)
-
+* made renew license, driving license, track license and learning license and documentation
 ---
 
 ## Conclusion
